@@ -1,9 +1,22 @@
-.jumbotron{
-    background-image: url("../img/img/bg.png");
+.splash{
+    background-image: url(../img/img/bg.png);
     background-size: cover;
-    height: 1000px;
+    background-position: bottom;
+    color: #FFF;
+    padding-top: 40px;
+    height: 835px;
 }
 
-.display{
-    border-image-width: 100px;
+.btn-outline-light.active,
+.btn-outline-light:hover{
+    border-radius: 45px;
+    padding: 5px 15px;
+    background-color: rgba(225, 225, 225, .5);
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.btn-outline-light{
+    padding: 5px 15px;
+    border: none;
 }
